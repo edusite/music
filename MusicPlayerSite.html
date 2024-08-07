@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Music Play Site</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="musicCss.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+	<!-- ----------------------------------nav------------------------------------------ -->
+	<section id="nav">
+		<nav id="navbar">
+			<div class="logo">
+				<img src="Media/Logo.png" alt="Logo">
+			</div>
+			<ul id="forli">
+				<li class="a1"><a href="index.html" class="aq1">HOME</a></li>
+				<li class="a2 "><a href="Feed.html">FEED</a></li>
+				<li class="a3"><a href="Library.html">LIBRARY</a></li>
+			
+				
+			</ul>
+			<div class="profile-dropdown">
+        <div onclick="toggle()" class="profile-dropdown-btn">
+          <div class="profile-img">
+            <i class="fa-solid fa-circle"></i>
+          </div>
+
+          <span
+            >Panda
+            <i class="fa-solid fa-angle-down"></i>
+          </span>
+        </div>
+
+        <ul class="profile-dropdown-list">
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-solid fa-user"></i>
+              Edit Profile
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-solid fa-inbox"></i>
+              Inbox
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-solid fa-chart-line"></i>
+              Analytics
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-solid fa-sliders"></i>
+              Settings
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-solid fa-envelope"></i>
+              Help & Support
+            </a>
+          </li>
+          <hr />
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-solid fa-arrow-right-from-bracket"></i>
+              Log out
+            </a>
+          </li>
+          <li class="profile-dropdown-list-item">
+            <a href="form.html">
+              <i class="fa-solid fa-arrow-right-from-bracket" onclick="showProfile()"></i>
+              Login
+            </a>
+          </li>
+          <li class="profile-dropdown-list-item">
+            <a href="signIn2.html">
+              <i class="fa-solid fa-arrow-right-from-bracket" onclick="showProfile()"></i>
+              Sign In
+            </a>
+          </li>
+        </ul>
+      </div>
+		</nav>
+	</section>
+	<!-- ---------------------------------------nav------------------------------------------------- -->
+	<section class="forMBox">
+		<div class="fMB">
+			<div class="player1">
+        		<div class="thumb">
+          			<img src="Media/download (13).jfif" alt=""  class="forimg" />
+        		</div>
+        		<div class="info">
+          			<div class="detail">
+            			<div class="title">
+             				 Candles
+              				<div class="time">
+                			<span id="current">Goodbye &amp; Good Riddance</span>
+                			<br>
+                 			<span id="current">Lil Uzi Vert</span>
+              				</div>
+            			</div>
+            			
+          			</div>
+          			<div class="follower">
+            			<span><i class="fa-solid fa-user"></i>1M</span>
+            			<span><i class="fa-solid fa-share"></i>15K</span>
+            			<span><i class="fa-solid fa-repeat"></i>1M</span>
+            		</div>
+          			<div class="ForAudio">
+          				<audio src="Media/yt1s.com - Joji  MODUS Official Audio.mp3" class="audio1" 	controls></audio>
+          			</div>
+          		</div>
+          			
+			</div>
+		</div>
+	</section>
+	<section class="Forlyrics">
+		<center><h1>Lyrics</h1></center>
+		<p>Oh, it's like that, I'm your dream come true</p>
+		<p>When it's on a platter for you</p>
+		<p>Then you pulled back when I try to make plans</p>
+		<br>
+		<p>More than two hours in advance, mm</p>
+		<p>I slam the door, I hit ignore</p>
+		<p>I'm saying, "No, no, no, no more"</p>
+		<p>I got you blocked, after this, an afterthought</p>
+		<br>
+		<p>I finally cut you off</p>
+		<p>I feel so much lighter like a feather with you off my mind (ah)</p>
+		<p>Floating through the memories like whatever, you're a waste of time (ah)</p>
+		<p>Your signals are mixed, you act like a bitch</p>
+		<br>
+		<p>You fit every stereotype, "Send a pic"</p>
+		<p>I feel so much lighter like a feather with you out my life</p>
+		<p>With you out my life</p>
+		<p>Like a feather, like a feather, like a feather, yeah</p>
+		<br>
+		<p>It feels so good</p>
+		<p>Not caring where you are tonight</p>
+		<p>And it feels so good</p>
+		<p>Not pretending to like the wine you like</p>
+		<p>I slam the door, I hit ignore</p>
+		<br>
+		<p>I'm saying, "No, no, no, no more"</p>
+		<p>I got you blocked, after this, an afterthought</p>
+		<p>I finally cut you off</p>
+		<p>I feel so much lighter like a feather with you off my mind (ah)</p>
+		<br>
+		<p>Floating through the memories like whatever, you're a waste of time (ah)</p>
+		<p>Your signals are mixed, you act like a bitch</p>
+		<p>You fit every stereotype, "Send a pic"</p>
+		<p>I feel so much lighter like a feather with you out my life</p>
+		<br>
+		<p>With you out my life</p>
+		<p>You want me? I'm done</p>
+		<p>You miss me? No duh</p>
+		<p>Where I'm at, I'm up where I'm at</p>
+		<p>You want me? I'm done (I'm done)</p>
+		<br>
+		<p>You miss me? No duh</p>
+		<p>Where I'm at, I'm up (I'm up) where I'm at</p>
+		<p>You want me? I'm done (I feel so much lighter)</p>
+		<p>You miss me? No duh (like a feather)</p>
+		<p>Where I'm at, I'm up where I'm at (with you off my mind)</p>
+		<br>
+		<p>You want me? I'm done (I feel so much lighter)</p>
+		<p>You miss me? No duh (like a feather with you off my mind)</p>
+		<p>Where I'm at, I'm up where I'm at (like a feather, like a feather)</p>
+		<p>(Like a feather, yeah)</p>
+	</section>
+	<section class="foo fo2">
+		<footer id="forfoo">
+			<div id="logo2">
+				<img src="Media/Logo.png" alt="Logo">
+			</div>
+						<h1>Copyright © 2024 FoLiFee ®</h1>
+			</div>
+		</footer>
+	</section>
+	<script type="text/javascript" src="DropDownProFileJs.js"></script>
+</body>
+</html>

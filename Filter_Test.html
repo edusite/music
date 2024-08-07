@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="musicCss.css">
+    <title>Gallery Filter</title>
+    <style>
+      .hide { display: none; }
+      .show { display: block; }
+      .active { color: red; }
+    </style>
+</head>
+<body>
+    <section class="ForAlb">
+        <h1>Popular Album</h1>
+        <div class="For-box">
+            <div class="alb-box gallery-item show" data-filter="all">
+                <div class="wrapper1">
+                    <div class="container1">
+                        <div class="music-album">
+                            <img src="Media/pngegg.png" alt="" class="music-disc">
+                            <audio src="audio_file1.mp3"></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="alb-box gallery-item all" data-filter="category1">
+                <div class="wrapper1">
+                    <div class="container1">
+                        <div class="music-album">
+                            <img src="Media/pngegg.png" alt="" class="music-disc">
+                            <audio src="audio_file2.mp3"></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="alb-box gallery-item all" data-filter="category2">
+                <div class="wrapper1">
+                    <div class="container1">
+                        <div class="music-album">
+                            <img src="Media/pngegg.png" alt="" class="music-disc">
+                            <audio src="audio_file3.mp3"></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="filter">
+        <button class="filter-item active" data-filter="all">All</button>
+        <button class="filter-item" data-filter="category1">Category 1</button>
+        <button class="filter-item" data-filter="category2">Category 2</button>
+    </div>
+
+    <script>
+        const galleryItems = document.querySelectorAll('.gallery-item');
+
+        document.querySelector('.filter').addEventListener('click', function(event) {
+            if (event.target.classList.contains('filter-item')) {
+                // Deactivate previous active filter
+                var activeFilter = document.querySelector('.filter-item.active');
+                if (activeFilter) {
+                    activeFilter.classList.remove('active');
+                }
+                // Activate the clicked filter
+                event.target.classList.add('active');
+
+                const filterValue = event.target.getAttribute('data-filter');
+                galleryItems.forEach((item) => {
+                    if (item.getAttribute('data-filter') === filterValue || filterValue === 'all') {
+                        item.classList.remove('hide');
+                        item.classList.add('show');
+                    } else {
+                        item.classList.remove('show');
+                        item.classList.add('hide');
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

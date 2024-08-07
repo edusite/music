@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>FoliFee Music Box</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="musicCss.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- <script type="text/javascript" src="forIndexJs.js"></script> -->
+	
+</head>
+<body>
+<!-- ----------------------------------nav------------------------------------------ -->
+	<section id="nav">
+		<nav id="navbar">
+			<div class="logo">
+				<img src="Media/Logo.png" alt="Logo">
+			</div>
+			<ul id="forli">
+				<li class="a1"><a href="" class="aq1">HOME</a></li>
+				<li class="a2 "><a href="Feed.html">FEED</a></li>
+				<li class="a3"><a href="Library.html">LIBRARY</a></li>
+				
+				
+			</ul>
+			<div class="profile-dropdown">
+        <div onclick="toggle()" class="profile-dropdown-btn">
+          <div class="profile-img">
+            <i class="fa-solid fa-circle"></i>
+          </div>
+
+          <span
+            >Panda
+            <i class="fa-solid fa-angle-down"></i>
+          </span>
+        </div>
+
+        <ul class="profile-dropdown-list">
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-solid fa-user"></i>
+              Edit Profile
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-solid fa-inbox"></i>
+              Inbox
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-solid fa-chart-line"></i>
+              Analytics
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-solid fa-sliders"></i>
+              Settings
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-solid fa-envelope"></i>
+              Help & Support
+            </a>
+          </li>
+          <hr />
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-solid fa-arrow-right-from-bracket"></i>
+              Log out
+            </a>
+          </li>
+          <li class="profile-dropdown-list-item">
+            <a href="form.html">
+              <i class="fa-solid fa-arrow-right-from-bracket" onclick="showProfile()"></i>
+              Login
+            </a>
+          </li>
+          <li class="profile-dropdown-list-item">
+            <a href="signIn2.html">
+              <i class="fa-solid fa-arrow-right-from-bracket" onclick="showProfile()"></i>
+              Sign In
+            </a>
+          </li>
+        </ul>
+      </div>
+		</nav>
+	</section>
+<!-- ------------------------Page------------------------------------ -->
+	<section class="Main">
+		<h2>More of What you like</h2>
+		<div class="forCard">
+			<div class="c1">
+					<div class="card">
+		<div class="img-holder">
+			<img src="Media/download (13).jfif" alt="" class="imgcard">
+		</div>
+		<div class="text">
+			<h2>Candles</h2>
+			<p>Goodbye &amp; Good Riddance</p>
+		</div>
+		<div class="play-icon">
+			<div class="circle">
+				<!-- <div class="triangle">
+					<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"></a>
+				</div> -->
+				<a href="MusicPlayerSite.html"><i class="fa-solid fa-play"></i></a>
+			</div>
+		</div>
+	</div>
+			</div>
+			<div class="c1">
+					<div class="card">
+		<div class="img-holder">
+			<img src="Media/Goodbye & Good Riddance (Anniversary Edition) by Juice WRLD on Apple Music.jfif" alt="" class="imgcard">
+		</div>
+		<div class="text">
+			<h2>AllGirlAreTheSame</h2>
+			<p>Juice Wrld</p>
+		</div>
+		<div class="play-icon">
+			<div class="circle">
+				<!-- <div class="triangle">
+					<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"></a>
+				</div> -->
+				<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"><i class="fa-solid fa-play"></i></a>
+			</div>
+		</div>
+	</div>
+			</div>
+			<div class="c1">
+				<div class="card">
+		<div class="img-holder">
+			<img src="Media/13.jfif" alt="" class="imgcard">
+		</div>
+		<div class="text">
+			<h2>Lean With Me</h2>
+			<p>Goodbye &amp; Good Riddance</p>
+		</div>
+		<div class="play-icon">
+			<div class="circle">
+				<!-- <div class="triangle">
+					<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"></a>
+				</div> -->
+				<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"><i class="fa-solid fa-play"></i></a>
+			</div>
+		</div>
+	</div>
+			</div>
+		</div>
+	</section>
+	<!-- -------------------artist name--------------- -->
+
+
+	<section class="ForArtsit">
+		<div class="a11">
+			<img src="Media/JuicWrld.jfif" alt="" class="a-img">
+			<div class="forT">
+				<p>JuiceWrld</p>
+				<p><i class="fa-solid fa-user">-</i>65M</p>
+			</div>
+			<div class="forB">
+				<button class="button-86 bmove" role="button">Follow</button>
+			</div>
+			
+			
+		</div>
+		<div class="a11">
+			<img src="Media/The 100 Best Album Covers of All Time.jfif" alt="" class="a-img">
+			<div class="forT">
+				<p>SZA</p>
+				<p><i class="fa-solid fa-user">-</i>50M</p>
+			</div>
+			<div class="forB">
+				<button class="button-87" role="button">Follow</button>
+			</div>
+		</div>
+		<div class="a11">
+			<img src="Media/TRAVIS SCOTT.jfif" alt="" class="a-img">
+			<div class="forT">
+				<p>Travit Scott</p>
+				<p><i class="fa-solid fa-user">-</i>60M</p>
+			</div>
+			<div class="forB">
+				<button class="button-88" role="button">Follow</button>
+			</div>
+		</div>
+		<div class="a11"> 
+			<img src="Media/The era-defining album covers designed by cult artists.jfif" alt="" class="a-img">
+			<div class="forT">
+				<p>Lil Uzi Vert</p>
+				<p><i class="fa-solid fa-user">-</i>60M</p>
+			</div>
+			<div class="forB">
+				<button class="button-89" role="button">Follow</button>
+			</div>
+		</div>
+	</section>
+	<!---------------------------------------------ArtistPic------------------>
+	<section class="ForArtsit Apic">
+		<div class="a11 ap1">
+			<img src="Media/Goodbye & Good Riddance (Anniversary Edition) by Juice WRLD on Apple Music.jfif" alt="" class="a-img ai1" id="pandaimg">
+			<div class="btnchoice">
+				<button class="btn1" onclick="document.getElementById('pandaimg').src='Media/Goodbye & Good Riddance (Anniversary Edition) by Juice WRLD on Apple Music.jfif';" data-aos="fade-up" data-aos-duration="2100">Pic1</button>
+				<button class="btn1" onclick="document.getElementById('pandaimg').src='Media/JuicWrld.jfif';" data-aos="fade-up" data-aos-duration="2100">Pic2</button>
+			</div>
+		</div>
+		<div class="a11 ap1">
+			<img src="Media/See you again 🙋🏾_♂️.jfif" alt="" class="a-img ai1" id="pandaimg1">
+			<div class="btnchoice">
+				<button class="btn1" onclick="document.getElementById('pandaimg1').src='Media/See you again 🙋🏾_♂️.jfif';" data-aos="fade-up" data-aos-duration="2100">Pic1</button>
+				<button class="btn1" onclick="document.getElementById('pandaimg1').src='Media/The 100 Best Album Covers of All Time.jfif';" data-aos="fade-up" data-aos-duration="2100">Pic2</button>
+			</div>
+		</div>
+		<div class="a11 ap1">
+			<img src="Media/The era-defining album covers designed by cult artists.jfif" alt="" class="a-img ai1" id="pandaimg2">
+			<div class="btnchoice">
+				<button class="btn1" onclick="document.getElementById('pandaimg2').src='Media/The era-defining album covers designed by cult artists.jfif';" data-aos="fade-up" data-aos-duration="2100">Pic1</button>
+				<button class="btn1" onclick="document.getElementById('pandaimg2').src='Media/FOR ALL THE DOGS.jfif';" data-aos="fade-up" data-aos-duration="2100">Pic2</button>
+			</div>
+			
+		</div>
+		<div class="a11 ap1">
+			<img src="Media/TRAVIS SCOTT.jfif" alt="" class="a-img ai1" id="pandaimg3"> 
+			<div class="btnchoice">
+				<button class="btn1" onclick="document.getElementById('pandaimg3').src='Media/TRAVIS SCOTT.jfif';" data-aos="fade-up" data-aos-duration="2100">Pic1</button>
+				<button class="btn1" onclick="document.getElementById('pandaimg3').src='Media/Kem.jfif';" data-aos="fade-up" data-aos-duration="2100">Pic2</button>
+			</div>
+		</div>
+	</section>
+
+	<!-- --------------Main2----------------- -->
+	<section class="Main m2">
+		<h2>Songs of The Week</h2>
+		<div class="forCard">
+			<div class="c1">
+					<div class="card">
+		<div class="img-holder"> 	
+			<img src="Media/See you again 🙋🏾_♂️.jfif" alt="" class="imgcard">
+		</div>
+		<div class="text">
+			<h2>See You Again</h2>
+			<p>Tyler The Creator</p>
+		</div>
+		<div class="play-icon">
+			<div class="circle">
+				<!-- <div class="triangle">
+					<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"></a>
+				</div> -->
+				<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"><i class="fa-solid fa-play"></i></a>
+			</div>
+		</div>
+	</div>
+			</div>
+			<div class="c1">
+					<div class="card">
+		<div class="img-holder">
+			<img src="Media/The 100 Best Album Covers of All Time.jfif" alt="" class="imgcard">
+		</div>
+		<div class="text">
+			<h2>Snooze</h2>
+			<p>SZA</p>
+		</div>
+		<div class="play-icon">
+			<div class="circle">
+				<!-- <div class="triangle">
+					<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"></a>
+				</div> -->
+				<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"><i class="fa-solid fa-play"></i></a>
+			</div>
+		</div>
+	</div>
+			</div>
+			<div class="c1">
+				<div class="card">
+		<div class="img-holder">
+			<img src="Media/The era-defining album covers designed by cult artists.jfif" alt="" class="imgcard">
+		</div>
+		<div class="text">
+			<h2>TheWayLifeGoes</h2>
+			<p>Lil Uzi Vert</p>
+		</div>
+		<div class="play-icon">
+			<div class="circle">
+				<!-- <div class="triangle">
+					<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"></a>
+				</div> -->
+				<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"><i class="fa-solid fa-play"></i></a>
+			</div>
+		</div>
+	</div>
+			</div>
+		</div>
+	</section>
+	<!-- --------------Main3----------------- -->
+	<section class="Main m3">
+		<h2>Big 3</h2>
+		<div class="forCard">
+			<div class="c1">
+					<div class="card">
+		<div class="img-holder">
+			<img src="Media/FOR ALL THE DOGS.jfif" alt="" class="imgcard">
+		</div>
+		<div class="text">
+			<h2>ForAllTheDogs</h2>
+			<p>Drake</p>
+		</div>
+		<div class="play-icon">
+			<div class="circle">
+				<!-- <div class="triangle">
+					<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"></a>
+				</div> -->
+				<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"><i class="fa-solid fa-play"></i></a>
+			</div>
+		</div>
+	</div>
+			</div>
+			<div class="c1">
+					<div class="card">
+		<div class="img-holder">
+			<img src="Media/Kem.jfif" alt="" class="imgcard">
+		</div>
+		<div class="text">
+			<h2>Money Threes</h2>
+			<p>Kemdrick Lamar</p>
+		</div>
+		<div class="play-icon">
+			<div class="circle">
+				<!-- <div class="triangle">
+					<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"></a>
+				</div> -->
+				<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"><i class="fa-solid fa-play"></i></a>
+			</div>
+		</div>
+	</div>
+			</div>
+			<div class="c1">
+				<div class="card">
+		<div class="img-holder">
+			<img src="Media/TRAVIS SCOTT.jfif" alt="" class="imgcard">
+		</div>
+		<div class="text">
+			<h2>FEIN</h2>
+			<p>Travis Scott</p>
+		</div>
+		<div class="play-icon">
+			<div class="circle">
+				<!-- <div class="triangle">
+					<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"></a>
+				</div> -->
+				<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"><i class="fa-solid fa-play"></i></a>
+			</div>
+		</div>
+	</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- footer -->
+	<section class="foo">
+		<footer id="forfoo">
+			<div id="logo2">
+				<img src="Media/Logo.png" alt="Logo">
+			</div>
+						<h1>Copyright © 2024 FoLiFee ®</h1>
+			</div>
+		</footer>
+	</section>
+	<script type="text/javascript" src="forIndexJs.js"></script>
+
+</body>
+</html>

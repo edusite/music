@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Library</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="musicCss.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+</head>
+<body>
+	<!-- ----------------------------------nav------------------------------------------ -->
+	<section id="nav">
+		<nav id="navbar">
+			<div class="logo">
+				<img src="Media/Logo.png" alt="Logo">
+			</div>
+			<ul id="forli">
+				<li class="a1"><a href="index.html" class="aq1">HOME</a></li>
+				<li class="a2 "><a href="Feed.html">FEED</a></li>
+				<li class="a3"><a href="">LIBRARY</a></li>
+				
+			</ul>
+			<div class="profile-dropdown">
+        <div onclick="toggle()" class="profile-dropdown-btn">
+          <div class="profile-img">
+            <i class="fa-solid fa-circle"></i>
+          </div>
+
+          <span
+            >Panda
+            <i class="fa-solid fa-angle-down"></i>
+          </span>
+        </div>
+
+        <ul class="profile-dropdown-list">
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-solid fa-user"></i>
+              Edit Profile
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-solid fa-inbox"></i>
+              Inbox
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-solid fa-chart-line"></i>
+              Analytics
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-solid fa-sliders"></i>
+              Settings
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-solid fa-envelope"></i>
+              Help & Support
+            </a>
+          </li>
+          <hr />
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-solid fa-arrow-right-from-bracket"></i>
+              Log out
+            </a>
+          </li>
+          <li class="profile-dropdown-list-item">
+            <a href="form.html">
+              <i class="fa-solid fa-arrow-right-from-bracket" onclick="showProfile()"></i>
+              Login
+            </a>
+          </li>
+          <li class="profile-dropdown-list-item">
+            <a href="signIn2.html">
+              <i class="fa-solid fa-arrow-right-from-bracket" onclick="showProfile()"></i>
+              Sign In
+            </a>
+          </li>
+        </ul>
+      </div>
+		</nav>
+	</section>
+	<section id="choice"  class="filter-menu">
+		<a href="#site1" class="chi filter-item active" data-filter="all">All</a>
+		<a href="#site2" class="chi filter-item">Album1</a>
+		<a href="#site3" class="chi filter-item">Albume2</a>
+		<a href="#site4" class="chi filter-item">Albume3</a>
+    </div>
+
+	</section>
+	<section class="ForAlb" id="site1">
+		<h1>Popular Album</h1>
+		<div class="For-box">
+			<div class="alb-box">
+				<div class="wrapper1">
+					<div class="container1">
+						<div class="music-album">
+							<img src="Media/pngegg.png" alt="" class="music-disc">
+							<audio src="" id="music"></audio>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="alb-box">
+				<div class="wrapper1">
+					<div class="container1">
+						<div class="music-album mb1">
+							<img src="Media/pngegg.png" alt="" class="music-disc">
+							<audio src="" id="music"></audio>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="alb-box">
+				<div class="wrapper1">
+					<div class="container1">
+						<div class="music-album mb2">
+							<img src="Media/pngegg.png" alt="" class="music-disc">
+							<audio src="" id="music"></audio>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="alb-box">
+				<div class="wrapper1">
+					<div class="container1">
+						<div class="music-album">
+							<img src="Media/pngegg.png" alt="" class="music-disc">
+							<audio src="" id="music"></audio>
+						</div>
+					</div>
+				</div>
+			</div> -->
+		</div>
+		
+	</section>
+<!-- ---------------------------------------------m1-------------------------------------- -->
+	<section class="Main alb1" id="site2">
+		<h2>More of What you like</h2>
+		<div class="forCard fc1">
+			<div class="c1">
+					<div class="card">
+			<div class="img-holder">
+			<img src="Media/download (13).jfif" alt="" class="imgcard">
+		</div>
+		<div class="text">
+			<h2>Candles</h2>
+			<p>Goodbye &amp; Good Riddance</p>
+		</div>
+		<div class="play-icon">
+			<div class="circle">
+				<!-- <div class="triangle">
+					<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"></a>
+				</div> -->
+				<a href="MusicPlayerSite.html"><i class="fa-solid fa-play"></i></a>
+			</div>
+		</div>
+	</div>
+			</div>
+			<div class="c1">
+					<div class="card">
+		<div class="img-holder">
+			<img src="Media/Goodbye & Good Riddance (Anniversary Edition) by Juice WRLD on Apple Music.jfif" alt="" class="imgcard">
+		</div>
+		<div class="text">
+			<h2>AllGirlAreTheSame</h2>
+			<p>JuiceWrld</p>
+		</div>
+		<div class="play-icon">
+			<div class="circle">
+				<!-- <div class="triangle">
+					<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"></a>
+				</div> -->
+				<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"><i class="fa-solid fa-play"></i></a>
+			</div>
+		</div>
+	</div>
+			</div>
+			<div class="c1">
+				<div class="card">
+		<div class="img-holder">
+			<img src="Media/13.jfif" alt="" class="imgcard">
+		</div>
+		<div class="text">
+			<h2>Lean With Me</h2>
+			<p>Goodbye &amp; Good Riddance</p>
+		</div>
+		<div class="play-icon">
+			<div class="circle">
+				<!-- <div class="triangle">
+					<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"></a>
+				</div> -->
+				<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"><i class="fa-solid fa-play"></i></a>
+			</div>
+		</div>
+	</div>
+			</div>
+			<div class="c1">
+				<div class="card">
+		<div class="img-holder">
+			<img src="Media/See you again 🙋🏾_♂️.jfif" alt="" class="imgcard">
+		</div>
+		<div class="text">
+			<h2>See You Again</h2>
+			<p>Tyler The Creator</p>
+		</div>
+		<div class="play-icon">
+			<div class="circle">
+				<!-- <div class="triangle">
+					<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"></a>
+				</div> -->
+				<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"><i class="fa-solid fa-play"></i></a>
+			</div>
+		</div>
+	</div>
+			</div>
+		</div>
+	</section>
+	<!-- ---------------------------------------------m2-------------------------------------- -->
+	<section class="Main alb2" id="site3">
+		<h2>More of What you like</h2>
+		<div class="forCard fc2">
+			<div class="c1">
+					<div class="card">
+			<div class="img-holder">
+			<img src="Media/Coorked.jfif" alt="" class="imgcard">
+		</div>
+		<div class="text">
+			<h2>CrookedSmile</h2>
+			<p>J.Cole</p>
+		</div>
+		<div class="play-icon">
+			<div class="circle">
+				<!-- <div class="triangle">
+					<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"></a>
+				</div> -->
+				<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"><i class="fa-solid fa-play"></i></a>
+			</div>
+		</div>
+	</div>
+			</div>
+			<div class="c1">
+					<div class="card">
+		<div class="img-holder">
+			<img src="Media/Serotonin Dreams.jfif" alt="" class="imgcard">
+		</div>
+		<div class="text">
+			<h2>Long Drive</h2>
+			<p>BoyWithUke</p>
+		</div>
+		<div class="play-icon">
+			<div class="circle">
+				<!-- <div class="triangle">
+					<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"></a>
+				</div> -->
+				<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"><i class="fa-solid fa-play"></i></a>
+			</div>
+		</div>
+	</div>
+			</div>
+			<div class="c1">
+				<div class="card">
+		<div class="img-holder">
+			<img src="Media/Post Malone.jfif" alt="" class="imgcard">
+		</div>
+		<div class="text">
+			<h2>Candy Paint</h2>
+			<p>Post Malone</p>
+		</div>
+		<div class="play-icon">
+			<div class="circle">
+				<!-- <div class="triangle">
+					<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"></a>
+				</div> -->
+				<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"><i class="fa-solid fa-play"></i></a>
+			</div>
+		</div>
+	</div>
+			</div>
+			<div class="c1">
+				<div class="card">
+		<div class="img-holder">
+			<img src="Media/Metro Boomin - Spider-Man_ Across The Spider-Verse (Soundtrack From And Inspired By The Motion Picture) (1).jfif" alt="" class="imgcard">
+		</div>
+		<div class="text">
+			<h2>Self Love</h2>
+			<p>Metro Boomin</p>
+		</div>
+		<div class="play-icon">
+			<div class="circle">
+				<!-- <div class="triangle">
+					<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"></a>
+				</div> -->
+				<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"><i class="fa-solid fa-play"></i></a>
+			</div>
+		</div>
+	</div>
+			</div>
+		</div>
+	</section>
+	<!-- ---------------------------------------------m3-------------------------------------- -->
+	<section class="Main alb3" id="site4">
+		<h2>More of What you like</h2>
+		<div class="forCard fc3">
+			<div class="c1">
+					<div class="card">
+			<div class="img-holder">
+			<img src="Media/NewJeans 'Get Up' 2nd mini album.jfif" alt="" class="imgcard">
+		</div>
+		<div class="text">
+			<h2>NewJeans</h2>
+			<p>NewJeans</p>
+		</div>
+		<div class="play-icon">
+			<div class="circle">
+				<!-- <div class="triangle">
+					<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"></a>
+				</div> -->
+				<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"><i class="fa-solid fa-play"></i></a>
+			</div>
+		</div>
+	</div>
+			</div>
+			<div class="c1">
+					<div class="card">
+		<div class="img-holder">
+			<img src="Media/TWICE's Nayeon excites fans with an album cover for 'IM NAYEON'.jfif" alt="" class="imgcard">
+		</div>
+		<div class="text">
+			<h2>WhatIsLove</h2>
+			<p>TWICE</p>
+		</div>
+		<div class="play-icon">
+			<div class="circle">
+				<!-- <div class="triangle">
+					<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"></a>
+				</div> -->
+				<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"><i class="fa-solid fa-play"></i></a>
+			</div>
+		</div>
+	</div>
+			</div>
+			<div class="c1">
+				<div class="card">
+		<div class="img-holder">
+			<img src="Media/LE SSERAFIM 'EASY' 3rd mini album.jfif" alt="" class="imgcard">
+		</div>
+		<div class="text">
+			<h2>EASY</h2>
+			<p>LE SSERAFIM</p>
+		</div>
+		<div class="play-icon">
+			<div class="circle">
+				<!-- <div class="triangle">
+					<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"></a>
+				</div> -->
+				<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"><i class="fa-solid fa-play"></i></a>
+			</div>
+		</div>
+	</div>
+			</div>
+			<div class="c1">
+				<div class="card">
+		<div class="img-holder">
+			<img src="Media/young forever.jfif" alt="" class="imgcard">
+		</div>
+		<div class="text">
+			<h2>Dynamite</h2>
+			<p>BTS</p>
+		</div>
+		<div class="play-icon">
+			<div class="circle">
+				<!-- <div class="triangle">
+					<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"></a>
+				</div> -->
+				<a href="https://www.youtube.com/watch?v=eux3gKwNai8&list=PLPRIKk3K3Jr79S228ZCnqZi_tThrGRxkK&index=32"><i class="fa-solid fa-play"></i></a>
+			</div>
+		</div>
+	</div>
+			</div>
+		</div>
+	</section>
+	<!-- footer -->
+	<section class="foo fo1">
+		<footer id="forfoo">
+			<div id="logo2">
+				<img src="Media/Logo.png" alt="Logo">
+			</div>
+						<h1>Copyright © 2024 FoLiFee ®</h1>
+			</div>
+		</footer>
+	</section>
+	<script type="text/javascript" src="forIndexJs.js"></script>
+</body>
+</html>

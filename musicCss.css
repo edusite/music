@@ -1,0 +1,1129 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+body{
+	background:#000000;
+}
+#nav{
+	width: 100%;
+	/*height: vh;*/
+	background-image: url(Logo [A2CD0B8].png);
+	background-size: cover;
+	background-position: center;
+	/*font-family: coolvetica;*/
+  font-family: 'Gotham-Black', sans-serif;
+}
+.logo img{
+	width: 65px;
+	height: 65px;
+}
+#logo2 img{
+	width: 90px;
+	height: 90px;
+}
+#navbar{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	box-shadow: 0 0 10px #ece6cc;
+	background:#ece6cc;
+	position: fixed;
+	left: 0;
+	z-index: 100;
+}
+#forli li{
+	display: inline-block;
+	padding: 0 10px;
+	list-style: none;
+	color: black;
+}
+#forli li a{
+	text-decoration: none;
+	color:black;
+}
+#forli li a:hover{
+	color:#c8a900;
+}
+/*---------------------------------------footer------------------------------------------*/
+.foo{
+  width: 100%;
+  /*height: vh;*/
+  background-image: url();
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 280%;
+  font-size: 19px;
+  /*font-family: coolvetica;*/
+  font-family: 'Gotham-Black', sans-serif;
+  /*background:#ece6cc;*/
+}
+.fo1{
+  position: absolute;
+  top: 350%;
+}
+.fo2{
+  position: absolute;
+  top: 235%;
+}
+#forfoo{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 0 10px #ece6cc;
+  background:#ece6cc;
+  left: 0;
+  z-index: 100;
+}
+.a1:hover{
+  text-decoration: underline;
+}
+.a2:hover{
+  text-decoration: underline;
+}
+.a3:hover{
+  text-decoration: underline;
+}
+.a4:hover{
+  text-decoration: underline;
+}
+.a5:hover{
+  text-decoration: underline;
+}
+.a6:hover{
+  text-decoration: underline;
+}
+#forfoo .foo1 li a:hover{
+  color: lightblue;
+}
+.f1 li{
+  /*display: inline-block;*/
+  padding: 0 10px;
+  list-style: none;
+  color: black;
+}
+.f1 li a{
+  text-decoration: none;
+  color:black;
+}
+.fq1{
+  height: 30vh;
+  padding: 3%;
+  /*border: 1px solid black;*/
+}
+.l1{
+  margin-bottom: 5%;
+}
+.c1{
+  font-family: coolvetica;
+
+}
+#fcl1{
+  font-size: 30px;
+}
+/*----------------------------------Page------------------------------------------------*/
+.Main{
+	width: 150vh;
+	height: 75vh;
+	position: absolute;
+	/*border:1px solid white;*/
+	top: 20%;
+	padding: 2%;
+}
+.forCard{
+	width: 140vh;
+	height: 60vh;
+	/*border:1px solid blue;*/
+	display: flex;
+	justify-content: space-around;
+	padding: 5%;
+
+}
+.Main h2{
+	color: #ece6cc;
+	text-align: center;
+}
+.c1{
+	width: 35vh;
+	height: 40vh;
+	/*border: 1px solid pink; */
+}
+.m2{
+	position: absolute;
+	top: 100%;
+}
+.m3{
+	position: absolute;
+	top: 180%;
+}
+/*----------------------------------------------------card-------*/
+.card{
+	background-color: #111;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 13rem;
+	border-radius: 0.3rem;
+	padding:1rem;
+	position: relative;
+	transition:all 0.4s;
+	cursor: pointer;
+  /*---------------*/
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.imgcard{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 0.3rem;
+}
+.text{
+	margin-top: 1rem;
+	line-height: 1;
+}
+.text h2{
+	font-size: 1.2rem;
+}
+.text p{
+	font-size: 0.9rem;
+	margin-top: 0.5rem;
+	font-weight: 500;
+	color: gray;
+}
+.play-icon{
+	position: absolute;
+	top: 45%;
+	right: 12%;
+	transform: translateY(10px);
+	filter: drop-shadow(0 0.5rem 1rem rgb(0,0,0));
+	opacity: 0;
+	transition: all 0.4s;
+}
+.card:hover .play-icon{
+	opacity: 1;
+	transform: translateY(0);
+}
+.card:hover{
+	background-color: #222;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+    transform: scale(1.1);
+}
+.circle{
+	width:3.5rem;
+	height: 3.5rem;
+	border-radius: 50%;
+	background-color: rgb(50,233,50);
+	display: grid;
+	place-items:center;
+}
+.triangle{
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 18px solid black;
+	transform: rotate(90deg);
+	margin-left:0.21rem; 
+}
+.play-icon:hover .circle{
+	cursor: auto;
+	transform: scale(1);
+}
+/*----------------------Artist-----------------------*/
+.ForArtsit{
+	width: 60vh;
+	height: 100vh;
+	/*border:2px solid green;*/
+	position: absolute;
+	top: 20%;
+	left: 71.5%;
+}
+.a11{
+	height: 25vh;
+	width: 58h;
+	/*border:1px solid white;*/
+	display:flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+.a-img{
+	height: 20vh;
+	width: 20vh;
+	clip-path: circle(40%);
+    /*box-shadow: 0 0 10px #d6d6d6;*/
+    transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+.a-img:hover{
+    box-shadow: 0 0 20px #d6d6d6;
+    transform: scale(1.1);
+    transform: scale(1.1);
+}
+.forT{
+	color: white;
+	padding: 10%;
+  font-size: 16px;
+  /*border: 1px solid green;*/
+  position: absolute;
+  left: 25%;
+}
+.forB{
+	width: 10%;
+	height: 20vh;
+	/*border: 1px solid white;*/
+	padding: 15%;
+	margin: 2%;
+}
+.Apic{
+  position: absolute;
+  top: 140%;
+}
+.ai1{
+  clip-path: none;
+  border-radius: 1rem;
+}
+.ap1{
+ /* width: 50%;
+  margin-left: 25%;*/
+}
+.btnchoice{
+  height: 100%;
+  width: 60%;
+  /*border: 1px solid blue;*/
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15%;
+}
+.bt{
+  height: 45%;
+}
+.btn1 {
+    
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #86abcf;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #86abcf;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 40%;
+  height: 20%;
+  will-change: transform;
+}
+
+.btn1:disabled {
+  pointer-events: none;
+}
+
+.btn1:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.btn1:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+/*---------------------------button-----------------------*/
+/* CSS */
+.button-86 {
+  all: unset;
+  width: 50px;
+  height: 15px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  position: absolute;
+  right:5%;
+  top: 8%;
+  color: #f0f0f0;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-86::after,
+.button-86::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all .4s;
+}
+
+.button-86::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background: #28282d;
+  border-radius: 10px;
+}
+
+.button-86::after {
+  transform: translate(10px, 10px);
+  width: 35px;
+  height: 35px;
+  background: #ffffff15;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+
+.button-86:hover::before {
+  transform: translate(5%, 20%);
+  width: 110%;
+  height: 110%;
+}
+
+.button-86:hover::after {
+  border-radius: 10px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+}
+
+.button-86:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}
+/*-------------------------------------btn2--------------------------*/
+.button-87 {
+  all: unset;
+  width: 50px;
+  height: 15px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  position: absolute;
+  right:5%;
+  top: 33%;
+  color: #f0f0f0;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-87::after,
+.button-87::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all .4s;
+}
+
+.button-87::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background: #28282d;
+  border-radius: 10px;
+}
+
+.button-87::after {
+  transform: translate(10px, 10px);
+  width: 35px;
+  height: 35px;
+  background: #ffffff15;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+
+.button-87:hover::before {
+  transform: translate(5%, 20%);
+  width: 110%;
+  height: 110%;
+}
+
+.button-87:hover::after {
+  border-radius: 10px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+}
+
+.button-87:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}
+/*------------------------------------------------*/
+.button-88 {
+  all: unset;
+  width: 50px;
+  height: 15px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  position: absolute;
+  right:5%;
+  top: 58%;
+  color: #f0f0f0;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-88::after,
+.button-88::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all .4s;
+}
+
+.button-88::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background: #28282d;
+  border-radius: 10px;
+}
+
+.button-88::after {
+  transform: translate(10px, 10px);
+  width: 35px;
+  height: 35px;
+  background: #ffffff15;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+
+.button-88:hover::before {
+  transform: translate(5%, 20%);
+  width: 110%;
+  height: 110%;
+}
+
+.button-88:hover::after {
+  border-radius: 10px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+}
+
+.button-88:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}
+/*------------------------------------------------*/
+.button-89 {
+  all: unset;
+  width: 50px;
+  height: 15px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  position: absolute;
+  right:5%;
+  top: 83%;
+  color: #f0f0f0;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-89::after,
+.button-89::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all .4s;
+}
+
+.button-89::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background: #28282d;
+  border-radius: 10px;
+}
+
+.button-89::after {
+  transform: translate(10px, 10px);
+  width: 35px;
+  height: 35px;
+  background: #ffffff15;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+
+.button-89:hover::before {
+  transform: translate(5%, 20%);
+  width: 110%;
+  height: 110%;
+}
+
+.button-89:hover::after {
+  border-radius: 10px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+}
+
+.button-89:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}
+
+/*--------------------------------Library-------------------------------------*/
+#choice{
+  width:100%;
+  height: 10vh;
+  /*border: 1px solid white;*/
+  position: absolute;
+  top: 15%;
+  display: flex;
+  justify-content: space-around;
+}
+.chi{
+  text-decoration: none;
+  color:#ece6cc;
+  font-size: 30px;
+}
+.chi:hover{
+  color: #c8a900;
+  text-decoration: underline;
+}
+.ForAlb{
+  width: 100%;
+  height: 50vh;
+  position: absolute;
+  /*border:1px solid white;*/
+  top: 30%;
+  padding-bottom: 7%;
+}
+.ForAlb h1{
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+.For-box{
+  width: 100%;
+  height: 40vh;
+  /*border:1px solid blue;*/
+  display: flex;
+  justify-content: space-around;
+  /*padding: 3%;*/
+}
+.alb-box{
+  width: 45vh;
+  height: 40vh;
+  /*border: 1px solid pink; */
+}
+.alb1{
+  width: 100%;
+  position: absolute;
+  top: 80%;
+}
+.fc1{
+  width: 100%;
+}
+.alb2{
+  width: 100%;
+  position: absolute;
+  top: 160%;
+}
+.fc2{
+  width: 100%;
+}
+.alb3{
+  width: 100%;
+  position: absolute;
+  top: 240%;
+}
+.fc3{
+  width: 100%;
+}
+/*-------------------------------------musicalbCard----------------------------*/
+/*.wrapper{
+  min-height: 100vh;
+  background-color: white;
+  overflow: hidden;
+  padding-top: 100px; 
+}*/
+.container1{
+  width: 100%;
+  max-width: 450px;
+  perspective: 900px;
+  margin: auto;
+}
+.music-album{
+  transition: 0.5s all ease;
+  transform: rotateX(50deg) scale(0.8);
+  box-shadow: 0 20px 50px #000;
+}
+.music-album:after {
+  content: '';
+  display: block;
+  background-color: #000;
+  background-image: url('Media/The 100 Best Album Covers of All Time.jfif');
+  background-size: contain;
+  padding-bottom: 100%;
+}
+.mb1:after{
+  background-image: url('Media/13.jfif');
+}
+.mb2:after{
+  background-image: url('Media/The era-defining album covers designed by cult artists.jfif');
+}
+.music-disc{
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  transition: 0.5s ease-in-out;
+  animation: spin 4s linear infinite;
+}
+.music-album:hover {
+  transform: rotate(0deg) scale(1) translateY(18px);
+  transition: 0.7s all ease;
+}
+.music-album:hover .music-disc{
+  transition: 0.7s ease-in-out 0.3s;
+  left: 55%;
+}
+/*@-moz-keyframes spin{
+  100%{
+    -moz-transform: rotate (360deg);
+  }
+}
+@-webkit-keyframes spin{
+  100%{
+    -webkit-transform: rotate (360deg);
+  }
+}*/
+@keyframes spin{
+  100%{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@media screen and (max-width: 900px){
+  .container1{
+    max-width: 360px;
+  }
+}
+@media screen and(max-width: 700px){
+  .container1{
+    max-width: 200px;
+  }
+}
+@media screen and(max-width: 450px){
+  .container1{
+    max-width: 150px;
+  }
+}
+@media screen and(max-width: 0px){
+  .container1{
+    max-width: 120px;
+  }
+}
+/*---------------------------------Feed-------------------------------------------*/
+.forMusic{
+  height: 270vh;
+  width: 65%;
+  /*border: 1px solid white;*/
+  position: absolute;
+  top: 20%;
+}
+.forMusic h1{
+  color:white;
+  text-align: center;
+  font-size: 72px;
+}
+.fm{
+  margin: 12%;
+  height: 25vh;
+  width: 75%;
+ /* border: 1px solid green;*/
+}
+/*-------------------------------------forMusic------------------------------------*/
+.player {
+    display: grid;
+    grid-template-columns: 10rem 1fr;
+    width: 39rem;   
+    background-color: #d6d6d6;
+    border-radius: 0.5rem;
+    box-shadow: 0 1rem 1.5rem #10101024;
+    overflow: hidden;
+}
+
+.player .thumb {
+    width: 10rem;
+    height: 11rem;
+}
+.player .thumb img {
+    width: 100%;
+    height: 120%;
+    object-fit: cover;
+}
+
+.player .info {
+    padding: 1rem;
+}
+
+.player .detail {
+    display: grid;
+    grid-template-columns: 1fr 4rem;
+    margin-bottom: 1rem;
+}
+.player .title {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.player .title .time {
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 0.25rem;
+}
+.player .control i {
+    width: 3.5rem;
+    height: 3.5rem;
+    display: grid;
+    place-content: center;
+    font-size: 1.25rem;
+    background-color: #1AAFFF;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 0rem #1AAFFFAA;
+}
+
+.player .control i:hover {
+    box-shadow: 0 0 1.5rem #1AAFFFAA;
+    font-size: 1.5rem;
+}
+.forAud{
+  width: 100%;
+  /*border: 1px solid green;*/
+}
+.forAud audio{
+  width: 100%;
+}
+/*-----------------------------------MusicPlayerSite--------------------------------------------*/
+.forMBox{
+  margin:3%;
+  width: 93%;
+  height: 40vh;
+ /* border: 1px solid white;*/
+  position: absolute;
+  top:10%;
+}
+.fMB{
+  width: 80%;
+  height: 35vh;
+  /*margin: 3%;*/
+  margin-left: 10%;
+  /*border: 1px solid pink;*/
+}
+.player1 {
+    display: grid;
+    grid-template-columns: 10rem 1fr;
+    width: 60rem;   
+    background-color: #d6d6d6;
+    border-radius: 0.5rem;
+    box-shadow: 0 1rem 1.5rem #10101024;
+    overflow: hidden;
+}
+
+.player1 .thumb {
+    width: 10rem;
+    height: 13rem;
+}
+.player1 .thumb img {
+    width: 130%;
+    height: 130%;
+    object-fit: cover;
+}
+
+.player1 .info {
+  margin: 3%;
+    padding-left: 6rem;
+    /*width: 1vh;*/
+   /* height: 50%;*/
+    /*border: 2px solid yellow;*/
+}
+.player1 .info{
+  /*padding-left: 1rem;*/
+}
+
+.player1 .detail {
+    display: grid;
+    grid-template-columns: 1fr 4rem;
+    margin-bottom: 1rem;
+}
+.player1 .title {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.player1 .title .time {
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 0.25rem;
+}
+.player1 .control i {
+    width: 3.5rem;
+    height: 3.5rem;
+    display: grid;
+    place-content: center;
+    font-size: 1.25rem;
+    background-color: #1AAFFF;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 0rem #1AAFFFAA;
+}
+
+.player1 .control i:hover {
+    box-shadow: 0 0 1.5rem #1AAFFFAA;
+    font-size: 1.5rem;
+}
+.player1 .ForAudio{
+  width: 40rem;
+  /*border: 2px solid green;*/
+  height: 10vh;
+}
+.ForAudio audio{
+  width: 100%;
+}
+.follower{
+  /*margin: 5%;*/
+  width: 30%;
+  height: 10%;
+  position:absolute;
+  top: 40%;
+  /*border: 2px solid green;*/
+}
+.follower span{
+    margin: 5%;
+}
+.Forlyrics{
+  margin-left: 25%;
+  position: absolute;
+  top: 60%;
+  width: 50%;
+  height: 180vh;
+  /*border: 1px solid white;*/
+  font-family: 'Gotham-Black', sans-serif;
+  color: white;
+}
+.Forlyrics p{
+  text-align: center;
+  font-family: 'Gotham-Black', sans-serif;
+}
+/*-------------------------------------ProfileDropDown------------------------------------------*/
+:root {
+  --primary: #eeeeee;
+  --secondary: #227c70;
+  --green: #82cd47;
+  --secondary-light: rgb(34, 124, 112, 0.2);
+  --secondary-light-2: rgb(127, 183, 126, 0.1);
+  --white: #fff;
+  --black: #393e46;
+
+  --shadow: 0px 2px 8px 0px var(--secondary-light);
+}
+.profile-dropdown {
+  position: relative;
+  width: fit-content;
+}
+
+.profile-dropdown-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  width: 150px;
+  border-radius: 50px;
+  color: var(--black);
+  /* background-color: white;
+  box-shadow: var(--shadow); */
+
+  cursor: pointer;
+  border: 1px solid var(--secondary);
+  transition: box-shadow 0.2s ease-in, background-color 0.2s ease-in,
+    border 0.3s;
+}
+
+.profile-dropdown-btn:hover {
+  background-color: var(--secondary-light-2);
+  box-shadow: var(--shadow);
+}
+
+.profile-img {
+  position: relative;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: url('Media/download (11).jfif');
+  background-size: cover;
+}
+
+.profile-img i {
+  position: absolute;
+  right: 0;
+  bottom: 0.3rem;
+  font-size: 0.5rem;
+  color: var(--green);
+}
+
+.profile-dropdown-btn span {
+  margin: 0 0.5rem;
+  margin-right: 0;
+}
+
+.profile-dropdown-list {
+  position: absolute;
+  top: 68px;
+  width: 220px;
+  right: 0;
+  background-color: #ece6cc;
+  border-radius: 10px;
+  max-height: 0;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: max-height 0.5s;
+}
+
+.profile-dropdown-list hr {
+  border: 0.5px solid var(--green);
+}
+
+.profile-dropdown-list.active {
+  max-height: 500px;
+}
+
+.profile-dropdown-list-item {
+  padding: 0.5rem 0rem 0.5rem 1rem;
+  transition: background-color 0.2s ease-in, padding-left 0.2s;
+}
+
+.profile-dropdown-list-item a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--black);
+}
+
+.profile-dropdown-list-item a i {
+  margin-right: 0.8rem;
+  font-size: 1.1rem;
+  width: 2.3rem;
+  height: 2.3rem;
+  background-color: black;
+  color: var(--white);
+  line-height: 2.3rem;
+  text-align: center;
+  margin-right: 1rem;
+  border-radius: 50%;
+  transition: margin-right 0.3s;
+}
+
+.profile-dropdown-list-item:hover {
+  padding-left: 1.5rem;
+  background-color: var(--secondary-light);
+}
+
+/*-----------------------------------------forFontDesign---------------------------------*/
+.Main h2{
+  font-family: 'LEMONMILK-Bold.otf', sans-serif;
+}
+.forT p{
+  font-family: 'Gotham-Black', sans-serif;
+  color: #d6d6d6;
+}
+.forB button{
+  font-family: 'LEMONMILK-Bold.otf', sans-serif;
+}
+/*-----------------------------------FeedFontDesign---------------------------*/
+.forMusic h1{
+  font-family: 'Gotham-Black', sans-serif;
+}
+.fm{
+  font-family: 'LEMONMILK-Bold.otf', sans-serif;
+}
+/*---------------------------------------MusicPlayerSiteFontDesign------------------------*/
+.info{
+  font-family: coolvetica;
+}
+/*---------------------------------------------LibraryFontDesign--------------------------*/
+#choice{
+  font-family: coolvetica;
+}
+.ForAlb h1{
+  font-family: 'Gotham-Black', sans-serif;
+}
